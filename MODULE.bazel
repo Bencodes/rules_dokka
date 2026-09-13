@@ -11,7 +11,7 @@ bazel_dep(name = "rules_kotlin", version = "2.4.0")
 bazel_dep(name = "bazel_lib", version = "3.1.0", dev_dependency = True)
 bazel_dep(name = "bazel_skylib", version = "1.9.0", dev_dependency = True)
 bazel_dep(name = "buildifier_prebuilt", version = "8.2.1.2", dev_dependency = True)
-bazel_dep(name = "rules_shell", version = "0.6.1", dev_dependency = True)
+bazel_dep(name = "rules_shell", version = "0.8.0", dev_dependency = True)
 
 maven = use_extension("@rules_jvm_external//:extensions.bzl", "maven")
 maven.install(
