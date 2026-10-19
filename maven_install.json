@@ -10,7 +10,7 @@
     "org.jetbrains.dokka:gfm-plugin": -52476412,
     "org.jetbrains.dokka:javadoc-plugin": 749667100,
     "org.jetbrains.dokka:kotlin-as-java-plugin": 504773963,
-    "org.jetbrains.kotlinx:kotlinx-html-jvm": -224868724,
+    "org.jetbrains.kotlinx:kotlinx-html-jvm": -138637387,
     "repositories": -1949687017
   },
   "__RESOLVED_ARTIFACTS_HASH": {
@@ -20,30 +20,29 @@
     "com.fasterxml.jackson.module:jackson-module-kotlin": -669504849,
     "com.soywiz.korlibs.korte:korte-jvm": 921273401,
     "org.freemarker:freemarker": 707519607,
-    "org.jetbrains.dokka:all-modules-page-plugin": -472785839,
+    "org.jetbrains.dokka:all-modules-page-plugin": 2016531853,
     "org.jetbrains.dokka:analysis-kotlin-symbols": 186422487,
     "org.jetbrains.dokka:analysis-markdown": -1864687899,
-    "org.jetbrains.dokka:dokka-base": -866718794,
+    "org.jetbrains.dokka:dokka-base": -1087482559,
     "org.jetbrains.dokka:dokka-cli": -38005855,
-    "org.jetbrains.dokka:gfm-plugin": -113055790,
-    "org.jetbrains.dokka:javadoc-plugin": -586982231,
-    "org.jetbrains.dokka:kotlin-as-java-plugin": 307566024,
-    "org.jetbrains.dokka:templating-plugin": -260055444,
+    "org.jetbrains.dokka:gfm-plugin": -53408911,
+    "org.jetbrains.dokka:javadoc-plugin": -811792363,
+    "org.jetbrains.dokka:kotlin-as-java-plugin": 100965435,
+    "org.jetbrains.dokka:templating-plugin": 959573535,
     "org.jetbrains.kotlin:kotlin-reflect": 1942089702,
     "org.jetbrains.kotlin:kotlin-stdlib": 226257048,
     "org.jetbrains.kotlin:kotlin-stdlib-common": 1014602954,
     "org.jetbrains.kotlin:kotlin-stdlib-jdk7": 77058071,
     "org.jetbrains.kotlin:kotlin-stdlib-jdk8": -429032975,
     "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm": -746227957,
-    "org.jetbrains.kotlinx:kotlinx-html-jvm": -862071217,
+    "org.jetbrains.kotlinx:kotlinx-html-jvm": -154600289,
     "org.jetbrains:annotations": -1663747638,
     "org.jetbrains:markdown-jvm": -864396197,
     "org.jsoup:jsoup": -1583305582
   },
   "conflict_resolution": {
     "com.soywiz.korlibs.korte:korte-jvm:3.3.0": "com.soywiz.korlibs.korte:korte-jvm:4.0.10",
-    "org.freemarker:freemarker:2.3.31": "org.freemarker:freemarker:2.3.32",
-    "org.jetbrains.kotlinx:kotlinx-html-jvm:0.8.0": "org.jetbrains.kotlinx:kotlinx-html-jvm:0.9.1"
+    "org.freemarker:freemarker:2.3.31": "org.freemarker:freemarker:2.3.32"
   },
   "artifacts": {
     "com.fasterxml.jackson.core:jackson-annotations": {
@@ -174,9 +173,9 @@
     },
     "org.jetbrains.kotlinx:kotlinx-html-jvm": {
       "shasums": {
-        "jar": "b68f39cd9ad7b46de0a0e77e7f5908d4e7661f3d0c85d2d9171543fcd5b156fb"
+        "jar": "f854126f39acbd963fd54e0cd226000a151a76f7225ee28185d52f44e262befb"
       },
-      "version": "0.9.1"
+      "version": "0.12.0"
     },
     "org.jetbrains:annotations": {
       "shasums": {
@@ -279,8 +278,7 @@
       "org.jetbrains:annotations"
     ],
     "org.jetbrains.kotlinx:kotlinx-html-jvm": [
-      "org.jetbrains.kotlin:kotlin-stdlib",
-      "org.jetbrains.kotlin:kotlin-stdlib-common"
+      "org.jetbrains.kotlin:kotlin-stdlib"
     ],
     "org.jetbrains:markdown-jvm": [
       "org.jetbrains.kotlin:kotlin-stdlib"
