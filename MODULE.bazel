@@ -26,7 +26,7 @@ maven.install(
         "org.jetbrains.dokka:gfm-plugin:2.2.0",
         "org.jetbrains.dokka:javadoc-plugin:2.2.0",
         "org.jetbrains.dokka:kotlin-as-java-plugin:2.2.0",
-        "org.jetbrains.kotlinx:kotlinx-html-jvm:0.12.0",
+        "org.jetbrains.kotlinx:kotlinx-html-jvm:0.11.0",
     ],
     fail_if_repin_required = True,
     lock_file = "//:maven_install.json",
