@@ -11,7 +11,7 @@ repos:
 
   # Keith Smiley's hooks format and lint Bazel/Starlark files with buildifier.
   - repo: https://github.com/keith/pre-commit-buildifier
-    rev: 8.0.3
+    rev: 10.1.0
     hooks:
       - id: buildifier
       - id: buildifier-lint
