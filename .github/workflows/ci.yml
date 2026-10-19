@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
         with:
-          python-version: "3.12"
+          python-version: "3.15"
       - run: python -m pip install --disable-pip-version-check pre-commit
       - run: pre-commit run --all-files --show-diff-on-failure
 
@@ -46,6 +46,7 @@ jobs:
           - windows-latest
         bazel_version:
           - "8.4.2"
+          - "8.x"
           - "9.x"
           - "rolling"
     runs-on: ${{ matrix.os }}
@@ -74,6 +75,7 @@ jobs:
       matrix:
         bazel_version:
           - "8.4.2"
+          - "8.x"
           - "9.x"
           - "rolling"
     runs-on: ubuntu-latest
