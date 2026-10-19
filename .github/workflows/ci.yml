@@ -47,6 +47,7 @@ jobs:
         bazel_version:
           - "8.4.2"
           - "9.x"
+          - "rolling"
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v7
@@ -74,6 +75,7 @@ jobs:
         bazel_version:
           - "8.4.2"
           - "9.x"
+          - "rolling"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
