@@ -59,6 +59,9 @@ The target produces one directory artifact named after the target. If all source
 are suppressed, the directory is empty. HTML is the default output format. Set
 `format` to `gfm` or `javadoc` for the other bundled formats.
 
+Logged Dokka errors always fail the action. Set `fail_on_warning = True` on a
+`dokka_config` to fail on warnings too.
+
 Without a target-level `config`, `dokka` uses the default `dokka_config`
 provided by its selected toolchain. The bundled default sets
 `offline_mode = True`, preventing network access during the Dokka action.

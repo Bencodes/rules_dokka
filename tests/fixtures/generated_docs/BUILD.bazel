@@ -58,14 +58,6 @@ dokka(
 )
 
 dokka(
-    name = "all_sources_suppressed_docs",
-    srcs = ["Main.kt"],
-    config = ":config",
-    suppressed_files = ["Main.kt"],
-    tags = FIXTURE_TAGS,
-)
-
-dokka(
     name = "api_docs",
     srcs = ["Main.kt"],
     config = ":config",

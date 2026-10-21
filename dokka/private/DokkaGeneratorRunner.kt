@@ -42,9 +42,16 @@ object DokkaGeneratorRunner {
                 standardConfiguration(root)
             }
         Files.createDirectories(configuration.outputDir.toPath())
-        DokkaGenerator(configuration, DokkaConsoleLogger()).generate()
-        // Dokka skips analysis cleanup when there is nothing to document.
-        exitProcess(0)
+        val logger = DokkaConsoleLogger()
+        val exitCode = try {
+            DokkaGenerator(configuration, logger).generate()
+            if (logger.errorsCount > 0 || (configuration.failOnWarning && logger.warningsCount > 0)) 1 else 0
+        } catch (failure: Throwable) {
+            failure.printStackTrace()
+            1
+        }
+        // Dokka can return without completing analysis cleanup.
+        exitProcess(exitCode)
     }
 
     private fun standardConfiguration(root: ObjectNode): DokkaConfiguration {
