@@ -55,9 +55,9 @@ dokka(
 )
 ```
 
-The target produces one directory artifact named after the target. HTML is the
-default output format. Set `format` to `gfm` or `javadoc` for the other bundled
-formats.
+The target produces one directory artifact named after the target. If all sources
+are suppressed, the directory is empty. HTML is the default output format. Set
+`format` to `gfm` or `javadoc` for the other bundled formats.
 
 Without a target-level `config`, `dokka` uses the default `dokka_config`
 provided by its selected toolchain. The bundled default sets

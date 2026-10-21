@@ -2,6 +2,7 @@
 
 load("@bazel_lib//lib:copy_to_directory.bzl", "copy_to_directory")
 load("@bazel_lib//lib:diff_test.bzl", "diff_test")
+load("@bazel_skylib//rules:build_test.bzl", "build_test")
 load("@rules_shell//shell:sh_test.bzl", "sh_test")
 
 def generated_docs_test_suite(name):
@@ -40,6 +41,12 @@ def generated_docs_test_suite(name):
         failure_message = "Dokka did not resolve the API exposed by its compiled dependency.",
         file1 = "//tests/fixtures/dependencies:expected_markdown",
         file2 = "//tests/fixtures/dependencies:actual_markdown",
+        tags = [name],
+    )
+
+    build_test(
+        name = name + "_all_sources_suppressed",
+        targets = ["//tests/fixtures/generated_docs:all_sources_suppressed_docs"],
         tags = [name],
     )
 
