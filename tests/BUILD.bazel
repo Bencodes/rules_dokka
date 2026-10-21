@@ -1,3 +1,4 @@
+load("@rules_kotlin//kotlin:jvm.bzl", "kt_jvm_test")
 load(":dokka_tests.bzl", "dokka_test_suite")
 load(":generated_docs_tests.bzl", "generated_docs_test_suite")
 load(":multi_module_tests.bzl", "multi_module_test_suite")
@@ -7,5 +8,25 @@ dokka_test_suite(name = "dokka")
 generated_docs_test_suite(name = "generated_docs")
 
 multi_module_test_suite(name = "multi_module")
+
+kt_jvm_test(
+    name = "generator_exit_test",
+    size = "medium",
+    srcs = [
+        "DokkaGeneratorRunnerTest.kt",
+        "//dokka/private:DokkaGeneratorRunner.kt",
+    ],
+    main_class = "rules.dokka.DokkaGeneratorRunnerTest",
+    runtime_deps = [
+        "@rules_dokka_dependencies//:org_freemarker_freemarker",
+        "@rules_dokka_dependencies//:org_jetbrains_dokka_analysis_kotlin_symbols",
+        "@rules_dokka_dependencies//:org_jetbrains_dokka_dokka_base",
+        "@rules_dokka_dependencies//:org_jetbrains_kotlinx_kotlinx_html_jvm",
+    ],
+    deps = [
+        "@rules_dokka_dependencies//:com_fasterxml_jackson_core_jackson_databind",
+        "@rules_dokka_dependencies//:org_jetbrains_dokka_dokka_cli",
+    ],
+)
 
 test_suite(name = "all_tests")
