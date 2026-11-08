@@ -207,7 +207,7 @@ object DokkaGeneratorRunner {
     /**
      * Preserves a URL-compatible module path when Dokka renders aggregate links.
      *
-     * Dokka 2.2's all-modules-page plugin appends `relativePathToOutputDirectory` directly to a
+     * Dokka's all-modules-page plugin appends `relativePathToOutputDirectory` directly to a
      * string when it creates module URLs. A regular [File] renders that path with backslashes on
      * Windows. File operations still use the native path stored by [File]; only its string
      * representation remains portable.

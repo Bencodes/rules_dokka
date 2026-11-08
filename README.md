@@ -5,7 +5,7 @@ Bzlmod-first Bazel rules for generating Kotlin and Java API documentation with
 
 ## Features
 
-- Dokka 2.2.0 with pinned Maven dependencies
+- Dokka 2.3.0 with pinned Maven dependencies
 - HTML, GFM, and Javadoc output
 - Native multi-module HTML aggregation
 - Reusable `dokka_config` policy and plugin profiles
@@ -31,7 +31,7 @@ Add the module to your `MODULE.bazel`:
 bazel_dep(name = "rules_dokka", version = "<release>")
 ```
 
-The module registers its bundled Dokka 2.2.0 toolchain automatically. A
+The module registers its bundled Dokka 2.3.0 toolchain automatically. A
 toolchain registered by the root module takes precedence if you need another
 version.
 
