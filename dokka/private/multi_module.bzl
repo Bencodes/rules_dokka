@@ -87,7 +87,7 @@ def _dokka_multi_module_impl(ctx):
 
         includes = module.includes.to_list()
 
-        # The generator maps this rules_dokka manifest to Dokka 2.2's typed
+        # The generator maps this rules_dokka manifest to Dokka's typed
         # DokkaModuleDescription implementation. The integration test exercises
         # that version-matched contract end to end.
         modules.append({

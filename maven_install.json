@@ -3,32 +3,32 @@
   "__INPUT_ARTIFACTS_HASH": {
     "com.soywiz.korlibs.korte:korte-jvm": -7852908,
     "org.freemarker:freemarker": -2019223501,
-    "org.jetbrains.dokka:all-modules-page-plugin": -185563557,
-    "org.jetbrains.dokka:analysis-kotlin-symbols": -2074610756,
-    "org.jetbrains.dokka:dokka-base": -676191430,
-    "org.jetbrains.dokka:dokka-cli": -456201275,
-    "org.jetbrains.dokka:gfm-plugin": -52476412,
-    "org.jetbrains.dokka:javadoc-plugin": 749667100,
-    "org.jetbrains.dokka:kotlin-as-java-plugin": 504773963,
+    "org.jetbrains.dokka:all-modules-page-plugin": -1982514916,
+    "org.jetbrains.dokka:analysis-kotlin-symbols": 423405181,
+    "org.jetbrains.dokka:dokka-base": 1821824507,
+    "org.jetbrains.dokka:dokka-cli": 2041814662,
+    "org.jetbrains.dokka:gfm-plugin": -1849427771,
+    "org.jetbrains.dokka:javadoc-plugin": -1047284259,
+    "org.jetbrains.dokka:kotlin-as-java-plugin": -1292177396,
     "org.jetbrains.kotlinx:kotlinx-html-jvm": 1658313972,
     "repositories": -1949687017
   },
   "__RESOLVED_ARTIFACTS_HASH": {
-    "com.fasterxml.jackson.core:jackson-annotations": -606714251,
-    "com.fasterxml.jackson.core:jackson-core": -1960100598,
-    "com.fasterxml.jackson.core:jackson-databind": -429496554,
-    "com.fasterxml.jackson.module:jackson-module-kotlin": -669504849,
+    "com.fasterxml.jackson.core:jackson-annotations": -1012223496,
+    "com.fasterxml.jackson.core:jackson-core": 1787458085,
+    "com.fasterxml.jackson.core:jackson-databind": 472908527,
+    "com.fasterxml.jackson.module:jackson-module-kotlin": -555277698,
     "com.soywiz.korlibs.korte:korte-jvm": 921273401,
     "org.freemarker:freemarker": -235099830,
-    "org.jetbrains.dokka:all-modules-page-plugin": -1314433324,
-    "org.jetbrains.dokka:analysis-kotlin-symbols": 186422487,
-    "org.jetbrains.dokka:analysis-markdown": -1864687899,
-    "org.jetbrains.dokka:dokka-base": 257612933,
-    "org.jetbrains.dokka:dokka-cli": -38005855,
-    "org.jetbrains.dokka:gfm-plugin": -1639093135,
-    "org.jetbrains.dokka:javadoc-plugin": -629498671,
-    "org.jetbrains.dokka:kotlin-as-java-plugin": -1209882693,
-    "org.jetbrains.dokka:templating-plugin": -653925537,
+    "org.jetbrains.dokka:all-modules-page-plugin": -611246335,
+    "org.jetbrains.dokka:analysis-kotlin-symbols": 1083237105,
+    "org.jetbrains.dokka:analysis-markdown": -1189503933,
+    "org.jetbrains.dokka:dokka-base": -1050171284,
+    "org.jetbrains.dokka:dokka-cli": 1617458183,
+    "org.jetbrains.dokka:gfm-plugin": 1919887896,
+    "org.jetbrains.dokka:javadoc-plugin": 348983471,
+    "org.jetbrains.dokka:kotlin-as-java-plugin": -186137609,
+    "org.jetbrains.dokka:templating-plugin": 864421470,
     "org.jetbrains.kotlin:kotlin-reflect": 1942089702,
     "org.jetbrains.kotlin:kotlin-stdlib": 226257048,
     "org.jetbrains.kotlin:kotlin-stdlib-common": 1014602954,
@@ -37,8 +37,8 @@
     "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm": -746227957,
     "org.jetbrains.kotlinx:kotlinx-html-jvm": 1306770291,
     "org.jetbrains:annotations": -1663747638,
-    "org.jetbrains:markdown-jvm": -864396197,
-    "org.jsoup:jsoup": -1583305582
+    "org.jetbrains:markdown-jvm": -41751880,
+    "org.jsoup:jsoup": 1818671647
   },
   "conflict_resolution": {
     "com.soywiz.korlibs.korte:korte-jvm:3.3.0": "com.soywiz.korlibs.korte:korte-jvm:4.0.10"
@@ -46,27 +46,27 @@
   "artifacts": {
     "com.fasterxml.jackson.core:jackson-annotations": {
       "shasums": {
-        "jar": "aae865c3d88256d61b11523cb1e88bd48d5b9ad5855fa1fc859504fd2204708a"
+        "jar": "21ddb598807d3a51a876704eb979d9296e1c6a6f47ab1826ff88c6d6a127a2d0"
       },
-      "version": "2.15.3"
+      "version": "2.22"
     },
     "com.fasterxml.jackson.core:jackson-core": {
       "shasums": {
-        "jar": "51fab7aad51ed588482edc507fd542747936c5094d1ab76ed21ddb63b96b610d"
+        "jar": "ff167a6317be15895706c26668f45b898efe40ab8780970658210fe1393d52a6"
       },
-      "version": "2.15.3"
+      "version": "2.22.2"
     },
     "com.fasterxml.jackson.core:jackson-databind": {
       "shasums": {
-        "jar": "c3c53333a2172a80678bda1803e39cff45bec6ae3e9c7d4f44a81ec4e2ab18dc"
+        "jar": "d0da14c12b16b5d54719aa172d83b542ff4abeb8b0fb7db476fde8ceece760ca"
       },
-      "version": "2.15.3"
+      "version": "2.22.2"
     },
     "com.fasterxml.jackson.module:jackson-module-kotlin": {
       "shasums": {
-        "jar": "8f72e6b99e6145e3284a5224355ca8ee6030afa8c1d6a3395b530d29026f8d52"
+        "jar": "174e917ea64c0559df824e92317782a92eba7278de488d4a11df0b8597791874"
       },
-      "version": "2.15.3"
+      "version": "2.22.2"
     },
     "com.soywiz.korlibs.korte:korte-jvm": {
       "shasums": {
@@ -82,57 +82,57 @@
     },
     "org.jetbrains.dokka:all-modules-page-plugin": {
       "shasums": {
-        "jar": "f6fd919043a726b3ec9b13489a0520e220fd5eaf2366b9cb53b568733b345b78"
+        "jar": "e559a716baefc6e9d360fa412e9c2de4eddccb0188617caa89ebc020c924d0b4"
       },
-      "version": "2.2.0"
+      "version": "2.3.0"
     },
     "org.jetbrains.dokka:analysis-kotlin-symbols": {
       "shasums": {
-        "jar": "31b4eabf7436083ae33200da6be7203675fb1fcdcd34d2f394f55e822dac8f0f"
+        "jar": "8989b3b175eb06d5107273b5848b4d9f0c02fe2f4f905df22f4eb2979898a3d6"
       },
-      "version": "2.2.0"
+      "version": "2.3.0"
     },
     "org.jetbrains.dokka:analysis-markdown": {
       "shasums": {
-        "jar": "7070de21dc5078013b53cc9c139321cceaf476c1630711cc5bda6d96e9da2087"
+        "jar": "5397fa0b8d0bcb88780fd2f1c23c73c0313cc7d12ec4f6e24a14f9ff6c1e1d56"
       },
-      "version": "2.2.0"
+      "version": "2.3.0"
     },
     "org.jetbrains.dokka:dokka-base": {
       "shasums": {
-        "jar": "721c5a1647dc49d1680d884350b438a039b2426aec65b696baee8e5aeb6442f5"
+        "jar": "25f9cce85729aa04d5f906cd67cbac3cdf43e144899cd5344b31355e4700c397"
       },
-      "version": "2.2.0"
+      "version": "2.3.0"
     },
     "org.jetbrains.dokka:dokka-cli": {
       "shasums": {
-        "jar": "b8c8aba823c0ac0e173af52abf2808aa692809a40b79f63828798bb77518324a"
+        "jar": "9c9e05b3cf19e8f794064e8290180f709721189317821ec0a7968598b8f3b422"
       },
-      "version": "2.2.0"
+      "version": "2.3.0"
     },
     "org.jetbrains.dokka:gfm-plugin": {
       "shasums": {
-        "jar": "8714c0840e56528836f32aeb4b04159f06f0baccbd219766810973db6cf5e76f"
+        "jar": "767283196696814447dcfeddde86a333e15dcfbb46ec27258d95df617cfa4b8e"
       },
-      "version": "2.2.0"
+      "version": "2.3.0"
     },
     "org.jetbrains.dokka:javadoc-plugin": {
       "shasums": {
         "jar": "c52e40ae390877fee050068fecfe701cd5464354dd83d1b1880e0e17f884aa6e"
       },
-      "version": "2.2.0"
+      "version": "2.3.0"
     },
     "org.jetbrains.dokka:kotlin-as-java-plugin": {
       "shasums": {
-        "jar": "0250e98d2d2b6b3ed04d562502ed64ba4c286e42c707c6813b8c88af83d1cb8c"
+        "jar": "9508690bb22e8162225c14ef91a82365f9a9257643d42ec0f33dbb47818d3fc8"
       },
-      "version": "2.2.0"
+      "version": "2.3.0"
     },
     "org.jetbrains.dokka:templating-plugin": {
       "shasums": {
-        "jar": "710774a96e555421066cb0c99a7222129ab39be4d86add06acd88f28bedbb7ce"
+        "jar": "a081779cde78ac0770a55dc868ff03e683dabbc58c4f21603dbb52f2093ef375"
       },
-      "version": "2.2.0"
+      "version": "2.3.0"
     },
     "org.jetbrains.kotlin:kotlin-reflect": {
       "shasums": {
@@ -184,15 +184,15 @@
     },
     "org.jetbrains:markdown-jvm": {
       "shasums": {
-        "jar": "893abb31f15b6216f74dc704c0c6bf1e567dcf2b62cca29cf42e4f53153637ac"
+        "jar": "41ddccb019905885ed50b1821da48b00b8787be7b485697aeb66b5c0ac46e02e"
       },
-      "version": "0.7.3"
+      "version": "0.7.10"
     },
     "org.jsoup:jsoup": {
       "shasums": {
-        "jar": "1f115726540ddf71958c14bc517ebfc49cf481e91cd917b0face84f01272e901"
+        "jar": "e9d8c856856680427f096d156f02a414289985c930998fcb519ce5be39b42003"
       },
-      "version": "1.16.1"
+      "version": "1.23.2"
     }
   },
   "dependencies": {
@@ -294,8 +294,8 @@
       "com.fasterxml.jackson.core.exc",
       "com.fasterxml.jackson.core.filter",
       "com.fasterxml.jackson.core.format",
+      "com.fasterxml.jackson.core.internal.shaded.fdp.v2_22_2",
       "com.fasterxml.jackson.core.io",
-      "com.fasterxml.jackson.core.io.doubleparser",
       "com.fasterxml.jackson.core.io.schubfach",
       "com.fasterxml.jackson.core.json",
       "com.fasterxml.jackson.core.json.async",
@@ -390,7 +390,6 @@
       "com.google.common.xml",
       "com.google.errorprone.annotations",
       "com.google.errorprone.annotations.concurrent",
-      "com.google.j2objc.annotations",
       "com.google.thirdparty.publicsuffix",
       "com.intellij",
       "com.intellij.application",
@@ -446,6 +445,12 @@
       "com.intellij.indentation",
       "com.intellij.injected.editor",
       "com.intellij.java.frontback.psi.impl",
+      "com.intellij.java.frontback.psi.impl.syntax",
+      "com.intellij.java.syntax",
+      "com.intellij.java.syntax.element",
+      "com.intellij.java.syntax.element.lazyParser",
+      "com.intellij.java.syntax.lexer",
+      "com.intellij.java.syntax.parser",
       "com.intellij.jna",
       "com.intellij.l10n",
       "com.intellij.lang",
@@ -458,6 +463,7 @@
       "com.intellij.lang.java.lexer",
       "com.intellij.lang.java.parser",
       "com.intellij.lang.java.source",
+      "com.intellij.lang.java.syntax",
       "com.intellij.lang.jvm",
       "com.intellij.lang.jvm.annotation",
       "com.intellij.lang.jvm.facade",
@@ -514,6 +520,7 @@
       "com.intellij.openapi.startup",
       "com.intellij.openapi.ui",
       "com.intellij.openapi.util",
+      "com.intellij.openapi.util.coroutines",
       "com.intellij.openapi.util.io",
       "com.intellij.openapi.util.objectTree",
       "com.intellij.openapi.util.registry",
@@ -538,13 +545,43 @@
       "com.intellij.platform.backend.presentation",
       "com.intellij.platform.diagnostic.telemetry",
       "com.intellij.platform.diagnostic.telemetry.helpers",
+      "com.intellij.platform.eel",
+      "com.intellij.platform.eel.annotations",
+      "com.intellij.platform.eel.channels",
+      "com.intellij.platform.eel.fs",
+      "com.intellij.platform.eel.path",
+      "com.intellij.platform.pluginSystem.parser.impl",
+      "com.intellij.platform.pluginSystem.parser.impl.elements",
+      "com.intellij.platform.syntax",
+      "com.intellij.platform.syntax.element",
+      "com.intellij.platform.syntax.extensions",
+      "com.intellij.platform.syntax.extensions.impl",
+      "com.intellij.platform.syntax.i18n",
+      "com.intellij.platform.syntax.impl.builder",
+      "com.intellij.platform.syntax.impl.util",
+      "com.intellij.platform.syntax.lexer",
+      "com.intellij.platform.syntax.logger",
+      "com.intellij.platform.syntax.parser",
+      "com.intellij.platform.syntax.psi",
+      "com.intellij.platform.syntax.psi.extensions",
+      "com.intellij.platform.syntax.psi.impl",
+      "com.intellij.platform.syntax.psi.lexer",
+      "com.intellij.platform.syntax.psi.util",
+      "com.intellij.platform.syntax.tree",
+      "com.intellij.platform.syntax.util.cancellation",
+      "com.intellij.platform.syntax.util.language",
+      "com.intellij.platform.syntax.util.lexer",
+      "com.intellij.platform.syntax.util.log",
+      "com.intellij.platform.syntax.util.parser",
+      "com.intellij.platform.syntax.util.runtime",
+      "com.intellij.platform.syntax.util.runtime.impl",
       "com.intellij.platform.util",
       "com.intellij.platform.util.coroutines",
       "com.intellij.platform.util.coroutines.channel",
       "com.intellij.platform.util.coroutines.compute",
       "com.intellij.platform.util.coroutines.flow",
-      "com.intellij.platform.util.coroutines.internal",
       "com.intellij.platform.util.coroutines.sync",
+      "com.intellij.platform.util.impl",
       "com.intellij.platform.util.progress",
       "com.intellij.platform.util.progress.impl",
       "com.intellij.pom",
@@ -573,8 +610,10 @@
       "com.intellij.psi.impl.file",
       "com.intellij.psi.impl.file.impl",
       "com.intellij.psi.impl.java.stubs",
+      "com.intellij.psi.impl.java.stubs.factories",
       "com.intellij.psi.impl.java.stubs.impl",
       "com.intellij.psi.impl.java.stubs.index",
+      "com.intellij.psi.impl.java.stubs.serializers",
       "com.intellij.psi.impl.light",
       "com.intellij.psi.impl.meta",
       "com.intellij.psi.impl.search",
@@ -594,6 +633,7 @@
       "com.intellij.psi.impl.source.tree.java",
       "com.intellij.psi.infos",
       "com.intellij.psi.javadoc",
+      "com.intellij.psi.jsp",
       "com.intellij.psi.meta",
       "com.intellij.psi.presentation.java",
       "com.intellij.psi.scope",
@@ -631,6 +671,7 @@
       "com.intellij.util.concurrency.annotations",
       "com.intellij.util.containers",
       "com.intellij.util.containers.hash",
+      "com.intellij.util.containers.intcaches",
       "com.intellij.util.containers.prefixTree",
       "com.intellij.util.containers.prefixTree.map",
       "com.intellij.util.containers.prefixTree.set",
@@ -638,6 +679,8 @@
       "com.intellij.util.download",
       "com.intellij.util.download.impl",
       "com.intellij.util.execution",
+      "com.intellij.util.fastutil",
+      "com.intellij.util.fastutil.ints",
       "com.intellij.util.fmap",
       "com.intellij.util.graph",
       "com.intellij.util.graph.impl",
@@ -655,7 +698,6 @@
       "com.intellij.util.io.pagecache.impl",
       "com.intellij.util.io.stats",
       "com.intellij.util.io.storage",
-      "com.intellij.util.io.storage.lf",
       "com.intellij.util.io.zip",
       "com.intellij.util.keyFMap",
       "com.intellij.util.lang",
@@ -802,7 +844,6 @@
       "kotlin.time.jdk8",
       "kotlin.uuid",
       "kotlinx.collections.immutable",
-      "kotlinx.collections.immutable.adapters",
       "kotlinx.collections.immutable.implementations.immutableList",
       "kotlinx.collections.immutable.implementations.immutableMap",
       "kotlinx.collections.immutable.implementations.immutableSet",
@@ -821,43 +862,6 @@
       "kotlinx.coroutines.internal",
       "kotlinx.coroutines.internal.intellij",
       "kotlinx.coroutines.intrinsics",
-      "kotlinx.coroutines.repackaged.net.bytebuddy",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.agent",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.agent.builder",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.asm",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.build",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.description",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.description.annotation",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.description.enumeration",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.description.field",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.description.method",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.description.modifier",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.description.type",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.dynamic",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.dynamic.loading",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.dynamic.scaffold",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.dynamic.scaffold.inline",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.dynamic.scaffold.subclass",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.implementation",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.implementation.attribute",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.implementation.auxiliary",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.implementation.bind",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.implementation.bind.annotation",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.implementation.bytecode",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.implementation.bytecode.assign",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.implementation.bytecode.assign.primitive",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.implementation.bytecode.assign.reference",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.implementation.bytecode.collection",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.implementation.bytecode.constant",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.implementation.bytecode.member",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.jar.asm",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.jar.asm.commons",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.jar.asm.signature",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.matcher",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.pool",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.utility",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.utility.privilege",
-      "kotlinx.coroutines.repackaged.net.bytebuddy.utility.visitor",
       "kotlinx.coroutines.scheduling",
       "kotlinx.coroutines.selects",
       "kotlinx.coroutines.stream",
@@ -938,6 +942,24 @@
       "org.apache.commons.io.monitor",
       "org.apache.commons.io.output",
       "org.apache.commons.io.serialization",
+      "org.apache.commons.lang3",
+      "org.apache.commons.lang3.arch",
+      "org.apache.commons.lang3.builder",
+      "org.apache.commons.lang3.compare",
+      "org.apache.commons.lang3.concurrent",
+      "org.apache.commons.lang3.concurrent.locks",
+      "org.apache.commons.lang3.event",
+      "org.apache.commons.lang3.exception",
+      "org.apache.commons.lang3.function",
+      "org.apache.commons.lang3.math",
+      "org.apache.commons.lang3.mutable",
+      "org.apache.commons.lang3.reflect",
+      "org.apache.commons.lang3.stream",
+      "org.apache.commons.lang3.text",
+      "org.apache.commons.lang3.text.translate",
+      "org.apache.commons.lang3.time",
+      "org.apache.commons.lang3.tuple",
+      "org.apache.commons.lang3.util",
       "org.apache.log4j",
       "org.apache.log4j.helpers",
       "org.apache.log4j.spi",
@@ -993,6 +1015,7 @@
       "org.intellij.markdown.flavours",
       "org.intellij.markdown.flavours.commonmark",
       "org.intellij.markdown.flavours.gfm",
+      "org.intellij.markdown.flavours.gfm.alert",
       "org.intellij.markdown.flavours.gfm.lexer",
       "org.intellij.markdown.flavours.gfm.table",
       "org.intellij.markdown.flavours.space",
@@ -1039,6 +1062,7 @@
       "org.jetbrains.dokka.analysis.java.doccomment",
       "org.jetbrains.dokka.analysis.java.parsers",
       "org.jetbrains.dokka.analysis.java.parsers.doctag",
+      "org.jetbrains.dokka.analysis.java.parsers.doctag.markdown",
       "org.jetbrains.dokka.analysis.java.util",
       "org.jetbrains.dokka.analysis.kotlin",
       "org.jetbrains.dokka.analysis.kotlin.documentable",
@@ -1059,21 +1083,29 @@
       "org.jetbrains.kotlin.analysis.api",
       "org.jetbrains.kotlin.analysis.api.annotations",
       "org.jetbrains.kotlin.analysis.api.base",
+      "org.jetbrains.kotlin.analysis.api.compilation",
       "org.jetbrains.kotlin.analysis.api.compile",
+      "org.jetbrains.kotlin.analysis.api.compilerPlugins",
       "org.jetbrains.kotlin.analysis.api.components",
       "org.jetbrains.kotlin.analysis.api.contracts.description",
       "org.jetbrains.kotlin.analysis.api.contracts.description.booleans",
+      "org.jetbrains.kotlin.analysis.api.dataflow",
       "org.jetbrains.kotlin.analysis.api.diagnostics",
+      "org.jetbrains.kotlin.analysis.api.evaluation",
+      "org.jetbrains.kotlin.analysis.api.expressions",
       "org.jetbrains.kotlin.analysis.api.fir",
       "org.jetbrains.kotlin.analysis.api.fir.annotations",
       "org.jetbrains.kotlin.analysis.api.fir.components",
+      "org.jetbrains.kotlin.analysis.api.fir.components.bridges",
       "org.jetbrains.kotlin.analysis.api.fir.components.compilation",
       "org.jetbrains.kotlin.analysis.api.fir.contracts",
       "org.jetbrains.kotlin.analysis.api.fir.diagnostics",
       "org.jetbrains.kotlin.analysis.api.fir.evaluate",
+      "org.jetbrains.kotlin.analysis.api.fir.imports",
       "org.jetbrains.kotlin.analysis.api.fir.modification",
       "org.jetbrains.kotlin.analysis.api.fir.projectStructure",
       "org.jetbrains.kotlin.analysis.api.fir.references",
+      "org.jetbrains.kotlin.analysis.api.fir.resolution",
       "org.jetbrains.kotlin.analysis.api.fir.scopes",
       "org.jetbrains.kotlin.analysis.api.fir.signatures",
       "org.jetbrains.kotlin.analysis.api.fir.statistics",
@@ -1106,6 +1138,9 @@
       "org.jetbrains.kotlin.analysis.api.impl.base.types.typeCreation",
       "org.jetbrains.kotlin.analysis.api.impl.base.util",
       "org.jetbrains.kotlin.analysis.api.imports",
+      "org.jetbrains.kotlin.analysis.api.internals",
+      "org.jetbrains.kotlin.analysis.api.javaInterop",
+      "org.jetbrains.kotlin.analysis.api.kdoc",
       "org.jetbrains.kotlin.analysis.api.lifetime",
       "org.jetbrains.kotlin.analysis.api.permissions",
       "org.jetbrains.kotlin.analysis.api.platform",
@@ -1122,6 +1157,7 @@
       "org.jetbrains.kotlin.analysis.api.platform.statistics",
       "org.jetbrains.kotlin.analysis.api.platform.utils",
       "org.jetbrains.kotlin.analysis.api.projectStructure",
+      "org.jetbrains.kotlin.analysis.api.renderer",
       "org.jetbrains.kotlin.analysis.api.renderer.base",
       "org.jetbrains.kotlin.analysis.api.renderer.base.annotations",
       "org.jetbrains.kotlin.analysis.api.renderer.base.annotations.renderers",
@@ -1153,14 +1189,16 @@
       "org.jetbrains.kotlin.analysis.api.standalone.base.packages",
       "org.jetbrains.kotlin.analysis.api.standalone.base.permissions",
       "org.jetbrains.kotlin.analysis.api.standalone.base.projectStructure",
+      "org.jetbrains.kotlin.analysis.api.standalone.base.references",
       "org.jetbrains.kotlin.analysis.api.standalone.base.services",
+      "org.jetbrains.kotlin.analysis.api.standalone.projectStructure",
       "org.jetbrains.kotlin.analysis.api.symbols",
       "org.jetbrains.kotlin.analysis.api.symbols.markers",
       "org.jetbrains.kotlin.analysis.api.symbols.pointers",
       "org.jetbrains.kotlin.analysis.api.types",
       "org.jetbrains.kotlin.analysis.api.types.typeCreation",
       "org.jetbrains.kotlin.analysis.api.utils",
-      "org.jetbrains.kotlin.analysis.api.utils.errors",
+      "org.jetbrains.kotlin.analysis.api.visibility",
       "org.jetbrains.kotlin.analysis.decompiled.light.classes",
       "org.jetbrains.kotlin.analysis.decompiled.light.classes.origin",
       "org.jetbrains.kotlin.analysis.decompiler.js",
@@ -1171,6 +1209,7 @@
       "org.jetbrains.kotlin.analysis.decompiler.stub",
       "org.jetbrains.kotlin.analysis.decompiler.stub.file",
       "org.jetbrains.kotlin.analysis.decompiler.stub.flags",
+      "org.jetbrains.kotlin.analysis.internal.utils",
       "org.jetbrains.kotlin.analysis.low.level.api.fir",
       "org.jetbrains.kotlin.analysis.low.level.api.fir.api",
       "org.jetbrains.kotlin.analysis.low.level.api.fir.api.services",
@@ -1180,9 +1219,11 @@
       "org.jetbrains.kotlin.analysis.low.level.api.fir.compile",
       "org.jetbrains.kotlin.analysis.low.level.api.fir.diagnostics",
       "org.jetbrains.kotlin.analysis.low.level.api.fir.diagnostics.fir",
+      "org.jetbrains.kotlin.analysis.low.level.api.fir.diagnostics.platform",
       "org.jetbrains.kotlin.analysis.low.level.api.fir.element.builder",
       "org.jetbrains.kotlin.analysis.low.level.api.fir.file.builder",
       "org.jetbrains.kotlin.analysis.low.level.api.fir.file.structure",
+      "org.jetbrains.kotlin.analysis.low.level.api.fir.imports",
       "org.jetbrains.kotlin.analysis.low.level.api.fir.lazy.resolve",
       "org.jetbrains.kotlin.analysis.low.level.api.fir.projectStructure",
       "org.jetbrains.kotlin.analysis.low.level.api.fir.providers",
@@ -1190,6 +1231,10 @@
       "org.jetbrains.kotlin.analysis.low.level.api.fir.resolver",
       "org.jetbrains.kotlin.analysis.low.level.api.fir.services",
       "org.jetbrains.kotlin.analysis.low.level.api.fir.sessions",
+      "org.jetbrains.kotlin.analysis.low.level.api.fir.sessions.cache",
+      "org.jetbrains.kotlin.analysis.low.level.api.fir.sessions.factory",
+      "org.jetbrains.kotlin.analysis.low.level.api.fir.sessions.factory.components",
+      "org.jetbrains.kotlin.analysis.low.level.api.fir.sessions.factory.configuration",
       "org.jetbrains.kotlin.analysis.low.level.api.fir.sessions.structure",
       "org.jetbrains.kotlin.analysis.low.level.api.fir.state",
       "org.jetbrains.kotlin.analysis.low.level.api.fir.statistics",
@@ -1208,7 +1253,6 @@
       "org.jetbrains.kotlin.analysis.utils.collections",
       "org.jetbrains.kotlin.analysis.utils.errors",
       "org.jetbrains.kotlin.analysis.utils.printer",
-      "org.jetbrains.kotlin.analysis.utils.relfection",
       "org.jetbrains.kotlin.analyzer",
       "org.jetbrains.kotlin.analyzer.common",
       "org.jetbrains.kotlin.asJava",
@@ -1219,10 +1263,12 @@
       "org.jetbrains.kotlin.backend.common",
       "org.jetbrains.kotlin.backend.common.actualizer",
       "org.jetbrains.kotlin.backend.common.actualizer.checker",
+      "org.jetbrains.kotlin.backend.common.checkers",
       "org.jetbrains.kotlin.backend.common.descriptors",
       "org.jetbrains.kotlin.backend.common.diagnostics",
       "org.jetbrains.kotlin.backend.common.extensions",
       "org.jetbrains.kotlin.backend.common.ir",
+      "org.jetbrains.kotlin.backend.common.ir.evaluation",
       "org.jetbrains.kotlin.backend.common.linkage",
       "org.jetbrains.kotlin.backend.common.linkage.issues",
       "org.jetbrains.kotlin.backend.common.linkage.partial",
@@ -1254,8 +1300,6 @@
       "org.jetbrains.kotlin.backend.jvm.mapping",
       "org.jetbrains.kotlin.backend.jvm.metadata",
       "org.jetbrains.kotlin.backend.jvm.overrides",
-      "org.jetbrains.kotlin.backend.jvm.serialization",
-      "org.jetbrains.kotlin.backend.jvm.serialization.proto",
       "org.jetbrains.kotlin.backend.konan",
       "org.jetbrains.kotlin.backend.konan.cgen",
       "org.jetbrains.kotlin.backend.konan.checkers",
@@ -1284,14 +1328,21 @@
       "org.jetbrains.kotlin.build.report.statistics.file",
       "org.jetbrains.kotlin.build.report.statistics.json",
       "org.jetbrains.kotlin.buildtools.api",
+      "org.jetbrains.kotlin.buildtools.api.abi",
+      "org.jetbrains.kotlin.buildtools.api.abi.operations",
       "org.jetbrains.kotlin.buildtools.api.arguments",
       "org.jetbrains.kotlin.buildtools.api.arguments.enums",
       "org.jetbrains.kotlin.buildtools.api.cri",
       "org.jetbrains.kotlin.buildtools.api.internal",
       "org.jetbrains.kotlin.buildtools.api.internal.wrappers",
+      "org.jetbrains.kotlin.buildtools.api.js",
+      "org.jetbrains.kotlin.buildtools.api.js.operations",
       "org.jetbrains.kotlin.buildtools.api.jvm",
       "org.jetbrains.kotlin.buildtools.api.jvm.operations",
+      "org.jetbrains.kotlin.buildtools.api.metadata",
       "org.jetbrains.kotlin.buildtools.api.trackers",
+      "org.jetbrains.kotlin.buildtools.api.wasm",
+      "org.jetbrains.kotlin.buildtools.api.wasm.operations",
       "org.jetbrains.kotlin.buildtools.internal",
       "org.jetbrains.kotlin.builtins",
       "org.jetbrains.kotlin.builtins.functions",
@@ -1309,6 +1360,7 @@
       "org.jetbrains.kotlin.checkers.diagnostics",
       "org.jetbrains.kotlin.checkers.diagnostics.factories",
       "org.jetbrains.kotlin.checkers.utils",
+      "org.jetbrains.kotlin.cli",
       "org.jetbrains.kotlin.cli.common",
       "org.jetbrains.kotlin.cli.common.arguments",
       "org.jetbrains.kotlin.cli.common.config",
@@ -1322,19 +1374,18 @@
       "org.jetbrains.kotlin.cli.common.profiling",
       "org.jetbrains.kotlin.cli.common.repl",
       "org.jetbrains.kotlin.cli.js",
-      "org.jetbrains.kotlin.cli.js.klib",
       "org.jetbrains.kotlin.cli.jvm",
       "org.jetbrains.kotlin.cli.jvm.compiler",
       "org.jetbrains.kotlin.cli.jvm.compiler.jarfs",
       "org.jetbrains.kotlin.cli.jvm.compiler.legacy.pipeline",
       "org.jetbrains.kotlin.cli.jvm.config",
       "org.jetbrains.kotlin.cli.jvm.index",
-      "org.jetbrains.kotlin.cli.jvm.javac",
       "org.jetbrains.kotlin.cli.jvm.modules",
       "org.jetbrains.kotlin.cli.jvm.plugins",
       "org.jetbrains.kotlin.cli.metadata",
       "org.jetbrains.kotlin.cli.pipeline",
       "org.jetbrains.kotlin.cli.pipeline.jvm",
+      "org.jetbrains.kotlin.cli.pipeline.jvm.metadata",
       "org.jetbrains.kotlin.cli.pipeline.metadata",
       "org.jetbrains.kotlin.cli.pipeline.web",
       "org.jetbrains.kotlin.cli.pipeline.web.js",
@@ -1359,6 +1410,7 @@
       "org.jetbrains.kotlin.codegen.state",
       "org.jetbrains.kotlin.compiler.plugin",
       "org.jetbrains.kotlin.compilerRunner",
+      "org.jetbrains.kotlin.components",
       "org.jetbrains.kotlin.config",
       "org.jetbrains.kotlin.config.nativeBinaryOptions",
       "org.jetbrains.kotlin.config.phaser",
@@ -1376,6 +1428,8 @@
       "org.jetbrains.kotlin.contracts.parsing",
       "org.jetbrains.kotlin.contracts.parsing.effects",
       "org.jetbrains.kotlin.coroutines",
+      "org.jetbrains.kotlin.daemon.client",
+      "org.jetbrains.kotlin.daemon.common",
       "org.jetbrains.kotlin.descriptors",
       "org.jetbrains.kotlin.descriptors.annotations",
       "org.jetbrains.kotlin.descriptors.deserialization",
@@ -1400,6 +1454,7 @@
       "org.jetbrains.kotlin.fir.analysis.checkers.config",
       "org.jetbrains.kotlin.fir.analysis.checkers.context",
       "org.jetbrains.kotlin.fir.analysis.checkers.declaration",
+      "org.jetbrains.kotlin.fir.analysis.checkers.declaration.crv",
       "org.jetbrains.kotlin.fir.analysis.checkers.experimental",
       "org.jetbrains.kotlin.fir.analysis.checkers.expression",
       "org.jetbrains.kotlin.fir.analysis.checkers.extra",
@@ -1488,6 +1543,7 @@
       "org.jetbrains.kotlin.fir.resolve.diagnostics",
       "org.jetbrains.kotlin.fir.resolve.inference",
       "org.jetbrains.kotlin.fir.resolve.inference.model",
+      "org.jetbrains.kotlin.fir.resolve.optimization",
       "org.jetbrains.kotlin.fir.resolve.providers",
       "org.jetbrains.kotlin.fir.resolve.providers.impl",
       "org.jetbrains.kotlin.fir.resolve.scopes",
@@ -1515,7 +1571,6 @@
       "org.jetbrains.kotlin.fir.visitors",
       "org.jetbrains.kotlin.frontend.di",
       "org.jetbrains.kotlin.frontend.java.di",
-      "org.jetbrains.kotlin.frontend.js.di",
       "org.jetbrains.kotlin.idea",
       "org.jetbrains.kotlin.idea.references",
       "org.jetbrains.kotlin.incremental",
@@ -1532,6 +1587,7 @@
       "org.jetbrains.kotlin.incremental.storage",
       "org.jetbrains.kotlin.incremental.util",
       "org.jetbrains.kotlin.inline",
+      "org.jetbrains.kotlin.io",
       "org.jetbrains.kotlin.ir",
       "org.jetbrains.kotlin.ir.backend.js",
       "org.jetbrains.kotlin.ir.backend.js.checkers",
@@ -1547,13 +1603,13 @@
       "org.jetbrains.kotlin.ir.backend.js.lower.coroutines",
       "org.jetbrains.kotlin.ir.backend.js.lower.inline",
       "org.jetbrains.kotlin.ir.backend.js.lower.serialization.ir",
+      "org.jetbrains.kotlin.ir.backend.js.lower.transformers",
       "org.jetbrains.kotlin.ir.backend.js.transformers.irToJs",
       "org.jetbrains.kotlin.ir.backend.js.tsexport",
       "org.jetbrains.kotlin.ir.backend.js.utils",
       "org.jetbrains.kotlin.ir.backend.js.utils.serialization",
       "org.jetbrains.kotlin.ir.backend.js.wasm",
       "org.jetbrains.kotlin.ir.backend.js.wasm.declarations",
-      "org.jetbrains.kotlin.ir.backend.jvm",
       "org.jetbrains.kotlin.ir.backend.jvm.serialization",
       "org.jetbrains.kotlin.ir.builders",
       "org.jetbrains.kotlin.ir.builders.declarations",
@@ -1561,22 +1617,13 @@
       "org.jetbrains.kotlin.ir.declarations.impl",
       "org.jetbrains.kotlin.ir.declarations.lazy",
       "org.jetbrains.kotlin.ir.descriptors",
+      "org.jetbrains.kotlin.ir.evaluation",
       "org.jetbrains.kotlin.ir.expressions",
       "org.jetbrains.kotlin.ir.expressions.impl",
       "org.jetbrains.kotlin.ir.inline",
+      "org.jetbrains.kotlin.ir.inline.checkers",
+      "org.jetbrains.kotlin.ir.inline.diagnostics",
       "org.jetbrains.kotlin.ir.inline.konan",
-      "org.jetbrains.kotlin.ir.interpreter",
-      "org.jetbrains.kotlin.ir.interpreter.builtins",
-      "org.jetbrains.kotlin.ir.interpreter.checker",
-      "org.jetbrains.kotlin.ir.interpreter.exceptions",
-      "org.jetbrains.kotlin.ir.interpreter.intrinsics",
-      "org.jetbrains.kotlin.ir.interpreter.preprocessor",
-      "org.jetbrains.kotlin.ir.interpreter.proxy",
-      "org.jetbrains.kotlin.ir.interpreter.proxy.reflection",
-      "org.jetbrains.kotlin.ir.interpreter.stack",
-      "org.jetbrains.kotlin.ir.interpreter.state",
-      "org.jetbrains.kotlin.ir.interpreter.state.reflection",
-      "org.jetbrains.kotlin.ir.interpreter.transformer",
       "org.jetbrains.kotlin.ir.objcinterop",
       "org.jetbrains.kotlin.ir.overrides",
       "org.jetbrains.kotlin.ir.symbols",
@@ -1592,14 +1639,12 @@
       "org.jetbrains.kotlin.ir.validation.checkers.symbol",
       "org.jetbrains.kotlin.ir.validation.checkers.type",
       "org.jetbrains.kotlin.ir.visitors",
-      "org.jetbrains.kotlin.javac",
-      "org.jetbrains.kotlin.javac.components",
-      "org.jetbrains.kotlin.javac.resolve",
-      "org.jetbrains.kotlin.javac.wrappers.symbols",
-      "org.jetbrains.kotlin.javac.wrappers.trees",
+      "org.jetbrains.kotlin.java.direct",
+      "org.jetbrains.kotlin.java.direct.model",
+      "org.jetbrains.kotlin.java.direct.parse",
+      "org.jetbrains.kotlin.java.direct.resolution",
+      "org.jetbrains.kotlin.java.direct.util",
       "org.jetbrains.kotlin.js",
-      "org.jetbrains.kotlin.js.analyze",
-      "org.jetbrains.kotlin.js.analyzer",
       "org.jetbrains.kotlin.js.artifacts",
       "org.jetbrains.kotlin.js.backend",
       "org.jetbrains.kotlin.js.backend.ast",
@@ -1610,12 +1655,10 @@
       "org.jetbrains.kotlin.js.inline.clean",
       "org.jetbrains.kotlin.js.inline.util",
       "org.jetbrains.kotlin.js.inline.util.collectors",
-      "org.jetbrains.kotlin.js.naming",
       "org.jetbrains.kotlin.js.parser",
       "org.jetbrains.kotlin.js.parser.antlr",
       "org.jetbrains.kotlin.js.parser.antlr.generated",
       "org.jetbrains.kotlin.js.parser.sourcemaps",
-      "org.jetbrains.kotlin.js.patterns",
       "org.jetbrains.kotlin.js.resolve",
       "org.jetbrains.kotlin.js.resolve.diagnostics",
       "org.jetbrains.kotlin.js.sourceMap",
@@ -1628,11 +1671,13 @@
       "org.jetbrains.kotlin.kdoc.psi.api",
       "org.jetbrains.kotlin.kdoc.psi.impl",
       "org.jetbrains.kotlin.konan",
+      "org.jetbrains.kotlin.konan.config",
       "org.jetbrains.kotlin.konan.exec",
       "org.jetbrains.kotlin.konan.file",
       "org.jetbrains.kotlin.konan.library",
       "org.jetbrains.kotlin.konan.library.components",
       "org.jetbrains.kotlin.konan.library.impl",
+      "org.jetbrains.kotlin.konan.library.writer",
       "org.jetbrains.kotlin.konan.properties",
       "org.jetbrains.kotlin.konan.target",
       "org.jetbrains.kotlin.konan.util",
@@ -1650,6 +1695,7 @@
       "org.jetbrains.kotlin.library.metadata.impl",
       "org.jetbrains.kotlin.library.metadata.resolver",
       "org.jetbrains.kotlin.library.metadata.resolver.impl",
+      "org.jetbrains.kotlin.library.writer",
       "org.jetbrains.kotlin.light.classes.symbol",
       "org.jetbrains.kotlin.light.classes.symbol.annotations",
       "org.jetbrains.kotlin.light.classes.symbol.classes",
@@ -1658,6 +1704,8 @@
       "org.jetbrains.kotlin.light.classes.symbol.methods",
       "org.jetbrains.kotlin.light.classes.symbol.modifierLists",
       "org.jetbrains.kotlin.light.classes.symbol.parameters",
+      "org.jetbrains.kotlin.light.classes.symbol.records",
+      "org.jetbrains.kotlin.light.classes.symbol.utils",
       "org.jetbrains.kotlin.load.java",
       "org.jetbrains.kotlin.load.java.components",
       "org.jetbrains.kotlin.load.java.descriptors",
@@ -1679,7 +1727,6 @@
       "org.jetbrains.kotlin.metadata.builtins",
       "org.jetbrains.kotlin.metadata.deserialization",
       "org.jetbrains.kotlin.metadata.java",
-      "org.jetbrains.kotlin.metadata.js",
       "org.jetbrains.kotlin.metadata.jvm",
       "org.jetbrains.kotlin.metadata.jvm.deserialization",
       "org.jetbrains.kotlin.metadata.jvm.serialization",
@@ -1694,7 +1741,9 @@
       "org.jetbrains.kotlin.platform.jvm",
       "org.jetbrains.kotlin.platform.konan",
       "org.jetbrains.kotlin.platform.wasm",
-      "org.jetbrains.kotlin.plugin.references",
+      "org.jetbrains.kotlin.preloading",
+      "org.jetbrains.kotlin.preloading.instrumentation",
+      "org.jetbrains.kotlin.preloading.instrumentation.annotations",
       "org.jetbrains.kotlin.progress",
       "org.jetbrains.kotlin.protobuf",
       "org.jetbrains.kotlin.psi",
@@ -1721,6 +1770,7 @@
       "org.jetbrains.kotlin.references",
       "org.jetbrains.kotlin.references.utils",
       "org.jetbrains.kotlin.renderer",
+      "org.jetbrains.kotlin.resolution",
       "org.jetbrains.kotlin.resolve",
       "org.jetbrains.kotlin.resolve.annotations",
       "org.jetbrains.kotlin.resolve.bindingContextUtil",
@@ -1781,8 +1831,6 @@
       "org.jetbrains.kotlin.serialization.deserialization",
       "org.jetbrains.kotlin.serialization.deserialization.builtins",
       "org.jetbrains.kotlin.serialization.deserialization.descriptors",
-      "org.jetbrains.kotlin.serialization.js",
-      "org.jetbrains.kotlin.serialization.js.ast",
       "org.jetbrains.kotlin.stats",
       "org.jetbrains.kotlin.storage",
       "org.jetbrains.kotlin.synthetic",
@@ -1807,18 +1855,16 @@
       "org.jetbrains.kotlin.utils.concurrent.block",
       "org.jetbrains.kotlin.utils.exceptions",
       "org.jetbrains.kotlin.utils.fileUtils",
+      "org.jetbrains.kotlin.utils.graalvm",
       "org.jetbrains.kotlin.utils.kapt",
       "org.jetbrains.kotlin.utils.repl",
       "org.jetbrains.kotlin.utils.strings",
-      "org.jetbrains.kotlin.wasm.analyze",
       "org.jetbrains.kotlin.wasm.config",
       "org.jetbrains.kotlin.wasm.ir",
       "org.jetbrains.kotlin.wasm.ir.convertors",
       "org.jetbrains.kotlin.wasm.ir.debug",
       "org.jetbrains.kotlin.wasm.ir.source.location",
       "org.jetbrains.kotlin.wasm.resolve",
-      "org.jetbrains.kotlin.wasm.resolve.diagnostics",
-      "org.jetbrains.kotlin.wasm.util",
       "org.jetbrains.org.objectweb.asm",
       "org.jetbrains.org.objectweb.asm.commons",
       "org.jetbrains.org.objectweb.asm.signature",
@@ -1849,13 +1895,9 @@
       "org.jetbrains.dokka.analysis.markdown.jb.factories"
     ],
     "org.jetbrains.dokka:dokka-base": [
-      "org.jetbrains.dokka.analysis",
       "org.jetbrains.dokka.base",
-      "org.jetbrains.dokka.base.deprecated",
       "org.jetbrains.dokka.base.generation",
       "org.jetbrains.dokka.base.pages",
-      "org.jetbrains.dokka.base.parsers",
-      "org.jetbrains.dokka.base.parsers.factories",
       "org.jetbrains.dokka.base.renderers",
       "org.jetbrains.dokka.base.renderers.html",
       "org.jetbrains.dokka.base.renderers.html.command.consumers",
@@ -1874,16 +1916,13 @@
       "org.jetbrains.dokka.base.transformers.pages.merger",
       "org.jetbrains.dokka.base.transformers.pages.sourcelinks",
       "org.jetbrains.dokka.base.transformers.pages.tags",
-      "org.jetbrains.dokka.base.translators.descriptors",
       "org.jetbrains.dokka.base.translators.documentables",
-      "org.jetbrains.dokka.base.translators.psi",
       "org.jetbrains.dokka.base.utils"
     ],
     "org.jetbrains.dokka:dokka-cli": [
       "_COROUTINE",
       "com.ctc.wstx.api",
       "com.ctc.wstx.cfg",
-      "com.ctc.wstx.compat",
       "com.ctc.wstx.dom",
       "com.ctc.wstx.dtd",
       "com.ctc.wstx.ent",
@@ -1966,8 +2005,8 @@
       "com.fasterxml.jackson.core.exc",
       "com.fasterxml.jackson.core.filter",
       "com.fasterxml.jackson.core.format",
+      "com.fasterxml.jackson.core.internal.shaded.fdp.v2_22_2",
       "com.fasterxml.jackson.core.io",
-      "com.fasterxml.jackson.core.io.doubleparser",
       "com.fasterxml.jackson.core.io.schubfach",
       "com.fasterxml.jackson.core.json",
       "com.fasterxml.jackson.core.json.async",
@@ -2332,6 +2371,7 @@
       "org.intellij.markdown.flavours",
       "org.intellij.markdown.flavours.commonmark",
       "org.intellij.markdown.flavours.gfm",
+      "org.intellij.markdown.flavours.gfm.alert",
       "org.intellij.markdown.flavours.gfm.lexer",
       "org.intellij.markdown.flavours.gfm.table",
       "org.intellij.markdown.flavours.space",
@@ -2408,6 +2448,9 @@
       ]
     },
     "org.jetbrains.dokka:analysis-kotlin-symbols": {
+      "com.intellij.platform.eel.EelSharedSecrets$PlatformUtilAccessor": [
+        "com.intellij.platform.util.impl.EelPlatformUtilFallbackAccessor"
+      ],
       "org.jetbrains.dokka.plugability.DokkaPlugin": [
         "org.jetbrains.dokka.analysis.java.JavaAnalysisPlugin",
         "org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin"
@@ -2420,23 +2463,17 @@
         "org.jetbrains.kotlin.load.java.FieldOverridabilityCondition",
         "org.jetbrains.kotlin.load.java.JavaIncompatibilityRulesOverridabilityCondition"
       ],
-      "org.jetbrains.kotlin.resolve.jvm.KotlinToJvmSignatureMapper": [
-        "org.jetbrains.kotlin.codegen.signature.KotlinToJvmSignatureMapperImpl"
-      ],
       "org.jetbrains.kotlin.util.ModuleVisibilityHelper": [
         "org.jetbrains.kotlin.cli.common.ModuleVisibilityHelperImpl"
       ],
-      "org/jline/terminal/provider/exec": [
-        "class=org.jline.terminal.impl.exec.ExecTerminalProvider"
+      "org.jline.terminal.spi.TerminalProvider": [
+        "org.jline.terminal.impl.jni.JniTerminalProvider"
       ],
       "org/jline/terminal/provider/jansi": [
         "class=org.jline.terminal.impl.jansi.JansiTerminalProvider"
       ],
       "org/jline/terminal/provider/jna": [
         "class=org.jline.terminal.impl.jna.JnaTerminalProvider"
-      ],
-      "org/jline/terminal/provider/jni": [
-        "class=org.jline.terminal.impl.jni.JniTerminalProvider"
       ],
       "reactor.blockhound.integration.BlockHoundIntegration": [
         "kotlinx.coroutines.debug.CoroutinesBlockHoundIntegration"
