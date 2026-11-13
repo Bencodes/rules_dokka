@@ -14,8 +14,10 @@ import org.jetbrains.dokka.apply
 import org.jetbrains.dokka.defaultLinks
 import org.jetbrains.dokka.utilities.DokkaConsoleLogger
 import java.io.File
+import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.Paths
+import kotlin.system.exitProcess
 
 /**
  * Runs Dokka in-process with paths resolved inside the Bazel action's execution root.
@@ -39,7 +41,17 @@ object DokkaGeneratorRunner {
             } else {
                 standardConfiguration(root)
             }
-        DokkaGenerator(configuration, DokkaConsoleLogger()).generate()
+        Files.createDirectories(configuration.outputDir.toPath())
+        val logger = DokkaConsoleLogger()
+        val exitCode = try {
+            DokkaGenerator(configuration, logger).generate()
+            if (logger.errorsCount > 0 || (configuration.failOnWarning && logger.warningsCount > 0)) 1 else 0
+        } catch (failure: Throwable) {
+            failure.printStackTrace()
+            1
+        }
+        // Dokka can return without completing analysis cleanup.
+        exitProcess(exitCode)
     }
 
     private fun standardConfiguration(root: ObjectNode): DokkaConfiguration {

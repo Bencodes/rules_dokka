@@ -27,7 +27,7 @@ def _dokka_config_attrs():
             doc = "Declaration visibilities to document.",
         ),
         "fail_on_warning": attr.bool(
-            doc = "Fail when Dokka emits a warning or error.",
+            doc = "Treat Dokka warnings as build failures. Errors always fail.",
         ),
         "jdk_version": attr.int(
             default = 8,
